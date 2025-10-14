@@ -20,6 +20,9 @@ h1{
 
 .question{
   border-style: dashed;
-  border: 5px;
   border-color: darkseagreen;
+  color: darkgoldenrod;
+    margin: 10% 50px 10px 20%;
+  padding: 30px;
+}
 }
