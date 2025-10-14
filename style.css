@@ -10,16 +10,17 @@ h1 {
 
 /*
 h1{
-  color: purple;
+  color: lightred;
 }
 */
 
 .name{
-  color: purple;
+  color: darkred;
 }
 
 .question{
-  color: blueviolet;
+  border-style: dashed;
+  color: pinkred;
   border: 5px;
   border-color: blueviolet;
 }
