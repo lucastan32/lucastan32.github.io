@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: antiquewhite;
 }
 
 h1 {
@@ -20,7 +20,6 @@ h1{
 
 .question{
   border-style: dashed;
-  color: pinkred;
   border: 5px;
-  border-color: blueviolet;
+  border-color: darkseagreen;
 }
