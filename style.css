@@ -17,3 +17,9 @@ h1{
 .name{
   color: purple;
 }
+
+.question{
+  color: blueviolet;
+  border: 5px;
+  border-color: blueviolet;
+}
