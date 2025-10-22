@@ -5,7 +5,7 @@ color: #3b2b0a;
 
 .sidebar {
 position: fixed;
-top: yes;                /*top is yes?*/ 
+top: yes;                               /*top is yes?*/ 
 left: 0;
 width: 220px;
 height: 100%;
@@ -35,11 +35,11 @@ text-decoration: underline;
 #content {
 margin-left: 250px;
 padding: 40px;
-background-color: fdf9f4;
+background-color: #fdf9f4;           /*no hashtag for the colour to load*/
 }
 .section {
-padding: 50%;               /*no % on the padding*/
-margin-bottom: 50px
+padding: 50px;               /*no px on the padding*/
+margin-bottom: 50px;            /*no semicolon after the 50px*/
 border-radius: 10px;
 }
 .light {
