@@ -19,7 +19,7 @@ color: #deb887;                           /*the colour is "what"*/
 text-align: center;
 }
 #sidebar ul {
-list-style: none;            /*why does the list style say none*/
+list-style: none;
 padding: 0;
 }
 #sidebar li {
