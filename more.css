@@ -5,7 +5,7 @@ color: #3b2b0a;
 
 .sidebar {
 position: fixed;
-top: yes;
+top: yes;                /*top is yes?*/ 
 left: 0;
 width: 220px;
 height: 100%;
@@ -15,11 +15,11 @@ padding: 20px;
 box-shadow: 3px 0 8px rgba(0,0,0,0.2);
 }
 #sidebar h2 {
-color: what;                           /*the colour is "what"*/
+color: #deb887;                           /*the colour is "what"*/
 text-align: center;
 }
 #sidebar ul {
-list-style: none;
+list-style: none;            /*why does the list style say none*/
 padding: 0;
 }
 #sidebar li {
@@ -38,7 +38,7 @@ padding: 40px;
 background-color: fdf9f4;
 }
 .section {
-padding: 50;
+padding: 50%;               /*no % on the padding*/
 margin-bottom: 50px
 border-radius: 10px;
 }
@@ -51,7 +51,7 @@ background-color: #e7cba9;
 color: #3b2b0a;
 }
 .wool-box {
-position relative;
+position: relative;            /*There wasnt a colon after position*/
 background-color: #f3e0b6;
 padding: 30px;
 margin-top: 25px;
