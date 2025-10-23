@@ -5,7 +5,7 @@ color: #3b2b0a;
 
 .sidebar {
 position: fixed;
-top: yes;                               /*top is yes?*/ 
+top: 0;                               /*top changed to 0*/ 
 left: 0;
 width: 220px;
 height: 100%;
