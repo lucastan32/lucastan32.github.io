@@ -4,7 +4,7 @@ margin: 0;
 color: #3b2b0a;
 }
 
-.sidebar {
+#sidebar {                            /*changed the dot before the sidebar to hashtag*/
 position: fixed;
 top: 0;                               /*top changed to 0*/ 
 left: 0;
@@ -58,7 +58,7 @@ padding: 30px;
 margin-top: 25px;
 border-radius: 8px;
 }
-.wool-detail {               /*there wasnt a squigly braket so the code didn't know where to start only where to end
+.wool-detail {               /*there wasnt a brace so the code didn't know where to start only where to end*/
 position: absolute;
 bottom: 10px;
 right: 10px;
