@@ -46,13 +46,13 @@ border-radius: 10px;
 .light {
 background-color: #fff8e6;
 }
-.dork {
+.dark {                             /* Renamed class from .dork to .dark to better reflect its purpose in styling dark-themed elements. This improves clarity and aligns with standard naming conventions.*/
 
 background-color: #e7cba9;
 color: #3b2b0a;
 }
 .wool-box {
-position: relative;            /*A colon was missing after the 'position' property. In CSS, the colon separates the property name from its value. Without it, the browser can't parse the declaration correctly, so the style won't be applied*/
+position: relative;               /*A colon was missing after the 'position' property. In CSS, the colon separates the property name from its value. Without it, the browser can't parse the declaration correctly, so the style won't be applied*/
 background-color: #f3e0b6;
 padding: 30px;
 margin-top: 25px;
