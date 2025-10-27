@@ -22,8 +22,8 @@
 <h1>Welcome to Alpaca Adventures</h1>
 <p>Alpacas live in the mountains of Peru and are known for their soft wool and gentle
 personalities. They travel in groups called herds.</p>
-</div>                                                     <!--Two closing /div tags were missing, which caused layout issues by leaving container elements unclosed. This can break styling and structure, especially in nested layouts.-->
-</div>
+</div>                                                     <!--One closing /div tags was missing, which caused layout issues by leaving container elements unclosed. This can break styling and structure, especially in nested layouts.-->
+
 <div id="wool" class="section dark">                                <!--The attribute value was missing quotation marks (""). Without quotes, the HTML parser may misinterpret the value or fail to apply it correctly, leading to unexpected behavior.-->
 <h2>Wonderful Wool</h2>                                          <!--The HTML tag wasn’t properly closed because it was missing a forward slash (/). This can cause rendering issues or unexpected behavior, especially with self-closing tags like <img> or <br>.-->
 <p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p>    <!--A <p> tag was missing, so the text wasn’t wrapped in a valid block-level element. This can prevent the browser from rendering the text properly or cause layout issues due to unexpected parsing.-->
@@ -47,6 +47,7 @@ leader that helps keep order in the group.</p>
 <li>They rarely spit at people — only other alpacas!</li>
 <li>Each alpaca has a unique “hum” sound.</li> </li>
 </ul>
+</div>
 </div>
 <div id="footer">
 <p>© 2025 Alpaca Adventures</p>
