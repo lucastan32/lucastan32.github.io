@@ -2,11 +2,13 @@ body {
 font-family: "Trebuchet MS", sans-serif;
 margin: 0;
 color: #3b2b0a;
+font-size: 16px;                     /*added font size and line height for readability*/
+line-height: 1.1;
 }
 
-#sidebar {                            /*changed the dot before the sidebar to hashtag*/
+#sidebar {                            /*Changed the selector from '.sidebar' to '#sidebar'. The dot targets a class, while the hashtag targets an ID. This ensures the styles apply to the element with id="sidebar" instead of a class named "sidebar".*/
 position: fixed;
-top: 0;                               /*top changed to 0*/ 
+top: 0;                               /*Changed 'top' to 0 to position the element flush against the top edge of its containing block. This ensures it aligns correctly, especially in absolute or fixed positioning contexts.*/
 left: 0;
 width: 220px;
 height: 100%;
@@ -16,7 +18,7 @@ padding: 20px;
 box-shadow: 3px 0 8px rgba(0,0,0,0.2);
 }
 #sidebar h2 {
-color: #deb887;                           /*the colour is "what"*/
+color: #deb887;                           /*The color value was incorrectly set to "what", which isn’t a valid CSS color. Updated it to #deb887 (BurlyWood) to ensure proper rendering and maintain visual consistency.*/
 text-align: center;
 }
 #sidebar ul {
@@ -36,11 +38,11 @@ text-decoration: underline;
 #content {
 margin-left: 250px;
 padding: 40px;
-background-color: #fdf9f4;           /*no hashtag for the colour to load*/
+background-color: #fdf9f4;           /*The color value was missing the '#' symbol, which is required for hexadecimal color codes. Without it, the browser doesn’t recognize the value as a valid color and won’t apply it correctly.*/
 }
 .section {
-padding: 50px;               /*no px on the padding*/
-margin-bottom: 50px;            /*no semicolon after the 50px*/
+padding: 50px;                       /*The padding value was missing a unit (e.g., 'px'). Without a unit, the browser can’t interpret the value correctly, which may result in no padding being applied. Added 'px' to ensure proper spacing.*/
+margin-bottom: 50px;                 /*A semicolon was missing after the '50px' value. Without it, the browser can't tell where one declaration ends and the next begins, which can break the entire rule set or cause styles to be ignored.*/
 border-radius: 10px;
 }
 .light {
@@ -52,13 +54,13 @@ background-color: #e7cba9;
 color: #3b2b0a;
 }
 .wool-box {
-position: relative;            /*There wasnt a colon after position*/
+position: relative;            /*A colon was missing after the 'position' property. In CSS, the colon separates the property name from its value. Without it, the browser can't parse the declaration correctly, so the style won't be applied*/
 background-color: #f3e0b6;
 padding: 30px;
 margin-top: 25px;
 border-radius: 8px;
 }
-.wool-detail {               /*there wasnt a brace so the code didn't know where to start only where to end*/
+.wool-detail {               /*An opening brace '{' was missing, so the browser didn’t know where the rule block began. Without it, the CSS declaration is incomplete and won’t be applied correctly.*/
 position: absolute;
 bottom: 10px;
 right: 10px;
