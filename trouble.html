@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alpaca Adventures</title>
-<link rel="stylesheet" href="more.css">            <!--the href says alapcascss instead of more.css-->
+<link rel="stylesheet" href="more.css">            <!--The href attribute incorrectly referenced 'alapcascss' instead of 'more.css'. This caused the browser to fail loading the correct stylesheet, resulting in missing styles on the page.-->
 </head>
 <body>
 <div id="sidebar">
 <h2>🦙 Alpaca Adventures</h2>
 <h2>Lucas Tan</h2>
 <ul>
-<li><a href="#home">Home</a></li>                  <!--There wasn't a # with home-->
+<li><a href="#home">Home</a></li>                  <!--The 'href' for the Home link was missing a '#' symbol. Without it, the link doesn't point to the top of the page or a valid anchor, which can cause navigation issues.-->
 <li><a href="#wool">Wool</a></li>
 <li><a href="#herds">Herd Life</a></li>
 <li><a href="#fun">Fun Facts</a>
@@ -22,15 +22,15 @@
 <h1>Welcome to Alpaca Adventures</h1>
 <p>Alpacas live in the mountains of Peru and are known for their soft wool and gentle
 personalities. They travel in groups called herds.</p>
-</div>                                                     <!--Missing 2 closing div tags-->
+</div>                                                     <!--Two closing /div tags were missing, which caused layout issues by leaving container elements unclosed. This can break styling and structure, especially in nested layouts.-->
 </div>
-<div id="wool" class="section dark">                                <!--There werent any ""-->
-<h2>Wonderful Wool</h2>                                          <!--didn't close the tag properly as there was no /-->
-<p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p>    <!--There wasnt a p tag so the text wouldn't display at all, or it could disrupt something in the code because it might not know what to do with the text.-->
+<div id="wool" class="section dark">                                <!--The attribute value was missing quotation marks (""). Without quotes, the HTML parser may misinterpret the value or fail to apply it correctly, leading to unexpected behavior.-->
+<h2>Wonderful Wool</h2>                                          <!--The HTML tag wasn’t properly closed because it was missing a forward slash (/). This can cause rendering issues or unexpected behavior, especially with self-closing tags like <img> or <br>.-->
+<p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p>    <!--A <p> tag was missing, so the text wasn’t wrapped in a valid block-level element. This can prevent the browser from rendering the text properly or cause layout issues due to unexpected parsing.-->
 <div class="wool-box">
-<p>This box demonstrates <strong>absolute positioning</strong>.</p>       <!--There was an extra p tag, so the rext underneath with be in the p tag and not know when to end disrupting the rest of the code-->
+<p>This box demonstrates <strong>absolute positioning</strong>.</p>       <!--An extra <p> tag was present, causing the following text to be incorrectly nested inside it. Without a proper closing tag, the browser may not know where the paragraph ends, potentially disrupting layout and rendering.-->
 <div class="wool-detail">
-<p>I'm a smaller box positioned inside the larger one!</p>                <!--There wasnt a p tag at the start so the text wouldn't display-->
+<p>I'm a smaller box positioned inside the larger one!</p>                <!--A starting <p> tag was missing, so the text wasn’t enclosed in a valid HTML element. Without it, the browser may not render the text correctly or could ignore it entirely, leading to display issues.-->
 </div>
 </div>
 
@@ -43,7 +43,7 @@ leader that helps keep order in the group.</p>
 <div id="fun" class="section dark">
 <h2>Fun Facts</h2>
 <ul>
-<li>Alpacas can live up to 20 years.</li>                        <!--There wasnt a closing li tag so the code didn't know where to stop-->
+<li>Alpacas can live up to 20 years.</li>                        <!--A closing </li> tag was missing, which caused the list item to remain open. This can confuse the browser’s parser and lead to layout or nesting issues in the rest of the list.-->
 <li>They rarely spit at people — only other alpacas!</li>
 <li>Each alpaca has a unique “hum” sound.</li> </li>
 </ul>
