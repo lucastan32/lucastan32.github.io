@@ -8,6 +8,7 @@ body{
   background-color: #636363;
   position: absolute;
   top: 25%;
+  margin-top: 25px;
   
 }
 
@@ -15,9 +16,10 @@ body{
   border-radius: 25px;
   background-color: #343434;
   padding: 20px; 
-  width: 600px;
-  height: 350px; 
+  width: 1300px;
+  height: 375px; 
       margin: 0 auto;
+  margin-top: -35px;
 }
 
 
