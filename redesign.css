@@ -15,8 +15,10 @@ body{
   border-radius: 25px;
   background-color: #343434;
   padding: 20px; 
-  width: 400px;
-  height: 350px;  
+  width: 600
+        px;
+  height: 350px; 
+      margin: 0 auto;
 }
 
 
