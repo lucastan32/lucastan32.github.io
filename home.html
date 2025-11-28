@@ -1,36 +1,47 @@
-<!DOCTYPE html>
-<html>
-<html lang="en">
+<!DOCTYPE html> <!-- Declares this document as HTML5 so browsers know how to interpret it. -->
+<html lang="en"> <!-- Sets the language of the page to English for accessibility and SEO. -->
 <head>
-<meta charset="UTF-8">                                                                             <!---html skeleton--->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">                                                     <!---connects this html to the css--->
-      <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">    <!---the google font link for the type of font--->
-      <style>
-        h1 {
-            font-family: 'Charm', cursive;      /*this is the google font being used, and the cursive is the backup incase Allura doesn't work for any reason*/
-        }
-    </style>
+  <meta charset="UTF-8"> <!-- Defines the character encoding so text displays correctly. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page scales properly on mobile devices. -->
+
+  <link rel="stylesheet" href="home.css"> <!-- Connects this HTML file to the external CSS stylesheet. -->
+  <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet"> <!-- Imports the Charm font from Google Fonts. -->
+
+  <style>
+    h1 {
+      font-family: 'Charm', cursive; /* Applies the Charm font to all h1 headings with cursive as a fallback. */
+    }
+  </style>
 </head>
 <body>
 
-<ul>
-  <li><a href="home.html">Home</a></li>
-  <li><a href="collection.html">Collection</a></li>
-  <li><a href="#browse">Browse</a></li>
-  <li><a href="#aboutcontact">About & Contact</a></li>               <!---this is my nav bar options--->
-    <li><a href="#cart">Cart</a></li>
-</ul>
-    <div class="rectangle">
-      <div class="box">                        <!---these are my div classes for the css shapes for the background--->
-          <div class="image-container">
+  <!-- Navigation bar with links to different sections of the site. -->
+  <ul>
+    <li><a href="home.html">Home</a></li> <!-- Link to the homepage. -->
+    <li><a href="collection.html">Collection</a></li> <!-- Link to the collection page. -->
+    <li><a href="#browse">Browse</a></li> <!-- Link to the browse section of the page. -->
+    <li><a href="#aboutcontact">About & Contact</a></li> <!-- Link to the about and contact section. -->
+    <li><a href="#cart">Cart</a></li> <!-- Link to the shopping cart section. -->
+  </ul>
 
-        <img src="https://github.com/lucastan32/lucastan32.github.io/blob/main/Title.png?raw=true" alt="Website Cover" width="1500px" height="225">             <!---my image that has canva pictures that i cant get here--->
-       <h1>
-  THE PHOBOPHOBIA COLLECTION ALBUM                <!---the title in text that also have the google fonts--->
-</h1>
-          </div>
+  <!-- Main background rectangle that holds the content box. -->
+  <div class="rectangle">
+    <!-- Inner box styled with CSS to hold the image and title. -->
+    <div class="box">
+      <!-- Image container that allows text to be positioned over the image. -->
+      <div class="image-container">
+
+        <!-- Cover image for the website with alt text for accessibility. -->
+        <img src="https://github.com/lucastan32/lucastan32.github.io/blob/main/Title.png?raw=true" 
+             alt="Website Cover" width="1500" height="225">
+
+        <!-- Main heading for the page styled with Google Fonts. -->
+        <h1>
+          THE PHOBOPHOBIA COLLECTION ALBUM
+        </h1>
       </div>
     </div>
-  </body>
+  </div>
+
+</body>
 </html>
